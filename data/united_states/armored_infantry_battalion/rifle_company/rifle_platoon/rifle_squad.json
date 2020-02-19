@@ -2,74 +2,154 @@
     "personnel": [
         {
             "role": "squad_leader",
-            "equipment": [".30-cal Garand Rifle M1"],
-            "rank": ["Staff Sergeant"]
+            "equipment": [
+                "rifle_30cal_m1"
+            ],
+            "rank": [
+                "staff_sergeant"
+            ]
         },
         {
             "role": "assistant_squad_leader",
-            "equipment": [".30-cal Garand Rifle M1"],
-            "rank": ["Sergeant"]
+            "equipment": [
+                "rifle_30cal_m1"
+            ],
+            "rank": [
+                "sergeant"
+            ]
         },
         {
             "role": "rifleman",
-            "equipment": [".30-cal Garand Rifle M1"],
-            "rank": ["P", "PFC", "T4", "T5"]
+            "equipment": [
+                "rifle_30cal_m1"
+            ],
+            "rank": [
+                "technician_grade_4",
+                "technician_grade_5",
+                "private_first_class",
+                "private"
+            ]
         },
         {
             "role": "rifleman",
-            "equipment": [".30-cal Garand Rifle M1"],
-            "rank": ["P", "PFC", "T4", "T5"]
+            "equipment": [
+                "rifle_30cal_m1"
+            ],
+            "rank": [
+                "technician_grade_4",
+                "technician_grade_5",
+                "private_first_class",
+                "private"
+            ]
         },
         {
             "role": "rifleman",
-            "equipment": [".30-cal Garand Rifle M1"],
-            "rank": ["P", "PFC", "T4", "T5"]
+            "equipment": [
+                "rifle_30cal_m1"
+            ],
+            "rank": [
+                "technician_grade_4",
+                "technician_grade_5",
+                "private_first_class",
+                "private"
+            ]
         },
         {
             "role": "rifleman",
-            "equipment": [".30-cal Garand Rifle M1"],
-            "rank": ["P", "PFC", "T4", "T5"]
+            "equipment": [
+                "rifle_30cal_m1"
+            ],
+            "rank": [
+                "technician_grade_4",
+                "technician_grade_5",
+                "private_first_class",
+                "private"
+            ]
         },
         {
             "role": "rifleman",
-            "equipment": [".30-cal Garand Rifle M1"],
-            "rank": ["P", "PFC", "T4", "T5"]
+            "equipment": [
+                "rifle_30cal_m1"
+            ],
+            "rank": [
+                "technician_grade_4",
+                "technician_grade_5",
+                "private_first_class",
+                "private"
+            ]
         },
         {
             "role": "rifleman",
-            "equipment": [".30-cal Garand Rifle M1"],
-            "rank": ["P", "PFC", "T4", "T5"]
+            "equipment": [
+                "rifle_30cal_m1"
+            ],
+            "rank": [
+                "technician_grade_4",
+                "technician_grade_5",
+                "private_first_class",
+                "private"
+            ]
         },
         {
             "role": "rifleman",
-            "equipment": [".30-cal Garand Rifle M1"],
-            "rank": ["P", "PFC", "T4", "T5"]
+            "equipment": [
+                "rifle_30cal_m1"
+            ],
+            "rank": [
+                "technician_grade_4",
+                "technician_grade_5",
+                "private_first_class",
+                "private"
+            ]
         },
         {
             "role": "rifleman",
-            "equipment": [".30-cal Garand Rifle M1"],
-            "rank": ["P", "PFC", "T4", "T5"]
+            "equipment": [
+                "rifle_30cal_m1"
+            ],
+            "rank": [
+                "technician_grade_4",
+                "technician_grade_5",
+                "private_first_class",
+                "private"
+            ]
         },
         {
             "role": "rifleman",
-            "equipment": [".30-cal Garand Rifle M1"],
-            "rank": ["P", "PFC", "T4", "T5"]
+            "equipment": [
+                "rifle_30cal_m1"
+            ],
+            "rank": [
+                "technician_grade_4",
+                "technician_grade_5",
+                "private_first_class",
+                "private"
+            ]
         },
         {
             "role": "driver",
-            "equipment": [".45-cal SMG M3"],
-            "rank": ["P", "PFC", "T4", "T5"]
+            "equipment": [
+                "smg_45cal_m3"
+            ],
+            "rank": [
+                "technician_grade_4",
+                "technician_grade_5",
+                "private_first_class",
+                "private"
+            ]
         }
     ],
     "equipment": [
-        "Launcher, rocket, 2.36-inch, M9",
-        "Launcher, grenade, M7",
-        "Launcher, grenade, M7"
+        "rocket_launcher_m9",
+        "grenade_launcher_m7",
+        "grenade_launcher_m7"
     ],
     "vehicles": [
         {
-            "type": "Half-Track M3A2",
-            "armament": ["Gun, machine, Browning, cal. .30, M1919A1, flexible"],
+            "type": "half-track_m3a2",
+            "armament": [
+                "mg_30cal_m1917a1"
+            ],
             "equpiment": []
         }
     ]
