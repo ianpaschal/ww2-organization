@@ -1,0 +1,89 @@
+{
+    "personnel": [
+        {
+            "role": "platoon_commander",
+            "equipment": [".30-cal Carbine M1"],
+            "rank": ["First Lieutenant", "Second Lieutenant"]
+        },
+        {
+            "role": "platoon_technical_sergeant",
+            "equipment": [".30-cal Garand Rifle M1"],
+            "rank": ["Technical Sergeant"]
+        },
+        {
+            "role": "squad_leader",
+            "equipment": [".30-cal Carbine M1"],
+            "rank": ["Staff Sergeant"]
+        },
+        {
+            "role": "sniper",
+            "equipment": [".30-cal Sniper Rifle M1903A4"],
+            "rank": ["P", "PFC", "T4", "T5"]
+        },
+        {
+            "role": "rifleman",
+            "equipment": [".30-cal Garand Rifle M1"],
+            "rank": ["P", "PFC", "T4", "T5"]
+        },
+        {
+            "role": "rifleman",
+            "equipment": [".30-cal Garand Rifle M1"],
+            "rank": ["P", "PFC", "T4", "T5"]
+        },
+        {
+            "role": "rifleman",
+            "equipment": [".30-cal Garand Rifle M1"],
+            "rank": ["P", "PFC", "T4", "T5"]
+        },
+        {
+            "role": "rifleman",
+            "equipment": [".30-cal Garand Rifle M1"],
+            "rank": ["P", "PFC", "T4", "T5"]
+        },
+        {
+            "role": "rifleman",
+            "equipment": [".30-cal Garand Rifle M1"],
+            "rank": ["P", "PFC", "T4", "T5"]
+        },
+        {
+            "role": "rifleman",
+            "equipment": [".30-cal Garand Rifle M1"],
+            "rank": ["P", "PFC", "T4", "T5"]
+        },
+        {
+            "role": "rifleman",
+            "equipment": [".30-cal Garand Rifle M1"],
+            "rank": ["P", "PFC", "T4", "T5"]
+        },
+        {
+            "role": "driver",
+            "equipment": [".45-cal SMG M3"],
+            "rank": ["P", "PFC", "T4", "T5"]
+        }
+    ],
+    "equipment": [
+        "Launcher, rocket, 2.36-inch, M9",
+        "Launcher, grenade, M7",
+        "Launcher, grenade, M7"
+    ],
+    "vehicles": [
+        {
+            "type": "Half-Track M3A2",
+            "armament": ["Gun, machine, Browning, HB, cal. .50, M2, flexible"],
+            "equpiment": ["Radio Set SCR-510"]
+        }
+    ]
+}
+
+8 garands
+1 .30-cal Sniper Rifle M1903A4
+2 carbines
+1 smg
+
+1 x platoon commander (first or 2nd lieutenant)
+1 x platoon tech sarge
+1 x squad leader staff sarge
+
+1 x driver
+7 riflemen 
+1 sniper
