@@ -1,0 +1,47 @@
+{
+    "personnel": [
+        {
+            "role": "platoon_commander",
+            "equipment": [
+                "carbine_30cal_m1"
+            ],
+            "rank": [
+                "1st_lieutenant",
+                "2nd_lieutenant"
+            ]
+        },
+        {
+            "role": "platoon_technical_sergeant",
+            "equipment": [
+                "carbine_30cal_m1"
+            ],
+            "rank": [
+                "technical_sergeant"
+            ]
+        },
+        {
+            "role": "messenger",
+            "equipment": [
+                "smg_45cal_m3"
+            ],
+            "rank": [
+                "technician_grade_4",
+                "technician_grade_5",
+                "private_first_class",
+                "private"
+            ]
+        }
+    ],
+    "equipment": [
+        "grenade_launcher_m8"
+    ],
+    "vehicles": [
+        {
+            "type": "truck_1/4-ton_4x4",
+            "armament": [],
+            "equpiment": [
+                "radio_set_scr-510"
+            ]
+        }
+    ]
+}
