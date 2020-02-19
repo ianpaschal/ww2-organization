@@ -30,11 +30,21 @@
         "official_name": "Gun, machine, Browning, HB, cal. .50, M2, flexible"
     },
 
-    "57mm_anti-tank_gun_m1_carriage_m2": {
+    "57mm_at_gun_m1_carriage_m2": {
         "friendly_name": "M1 57mm Anti-Tank Gun on M2 Carriage",
         "official_name": "Gun, 57-mm, towed, M1, with carriage, M2"
     },
 
+    "60mm_mortar_m2": {
+        "friendly_name": "M2 60mm Mortar",
+        "official_name": "Mortar, 60-mm, M2"
+    },
+
+    "rocket_launcher_m9": {
+        "friendly_name": "M9 Rocket Launcher",
+        "official_name": "Launcher, rocket, 2.36-inch, M9",
+        "nickname": "Bazooka"
+    },
     "grenade_launcher_m7": {
         "friendly_name": "M7 Grenade Launcher",
         "official_name": "Launcher, grenade, M7"
@@ -56,5 +66,11 @@
 
     "radio_set_scr-510": {
         "official_name": "Radio Set SCR-510"
+    },
+    "reel_equipment_ce-11": {
+        "official_name": "Reel Equipment CE-11"
+    },
+    "telephone_ee-8": {
+        "official_name": "Telephone EE-8"
     }
 }
