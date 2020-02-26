@@ -8,7 +8,7 @@ export default class AntiTankSquad {
                 {
                     role: ['squad_leader'],
                     equipment: [
-                        weapons.carbine30calM1,
+                        equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.staffSergeant,
@@ -17,7 +17,7 @@ export default class AntiTankSquad {
 				{
 					role: ['anti_tank_gunner'],
                     equipment: [
-                        weapons.carbine30calM1,
+                        equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.corporal,
@@ -26,7 +26,7 @@ export default class AntiTankSquad {
 				{
 					role: ['cannoneer'],
                     equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -36,7 +36,7 @@ export default class AntiTankSquad {
 				{
 					role: ['cannoneer'],
                     equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -46,7 +46,7 @@ export default class AntiTankSquad {
 				{
 					role: ['cannoneer'],
                     equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -56,7 +56,7 @@ export default class AntiTankSquad {
 				{
 					role: ['cannoneer'],
                     equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -66,7 +66,7 @@ export default class AntiTankSquad {
 				{
 					role: ['ammunition_handler'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -76,7 +76,7 @@ export default class AntiTankSquad {
 				{
 					role: ['ammunition_handler'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -86,7 +86,7 @@ export default class AntiTankSquad {
 				{
 					role: ['ammunition_handler'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -96,7 +96,7 @@ export default class AntiTankSquad {
                 {
                     role: ['half_track_driver'],
                     equipment: [
-                        weapons.smg45calM3
+                        equipment.smg45calM3
                     ],
                     rank: [
                         ranks.technicianGrade5,
@@ -104,16 +104,16 @@ export default class AntiTankSquad {
                 }
             ],
             equipment: [
-				weapons.atGun57mmM1CarriageM2,
+				equipment.atGun57mmM1CarriageM2,
 			],
             vehicles: [
 				{
 					type: vehicles.halfTrackM3A2,
 					armament: [
-						uses50calMG ? weapons.mg50calM2HB : weapons.mg30calM1917A1,
+						uses50calMG ? equipment.mg50calM2HB : equipment.mg30calM1917A1,
 					],
 					equipment: [
-						weapons.grenadeLauncherM8,
+						equipment.grenadeLauncherM8,
 						equipment.radioSetSCR510,
 					]
 				}

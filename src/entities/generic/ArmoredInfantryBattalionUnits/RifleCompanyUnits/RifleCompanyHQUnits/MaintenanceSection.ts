@@ -8,7 +8,7 @@ export default class MaintenanceSection {
 				{
 					role: ['executive_motor_officier'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.firstLieutenant,
@@ -18,7 +18,7 @@ export default class MaintenanceSection {
 				{
 					role: ['motor_officier'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.staffSergeant,
@@ -27,7 +27,7 @@ export default class MaintenanceSection {
 				{
 					role: ['armorer'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.technicianGrade5
@@ -36,7 +36,7 @@ export default class MaintenanceSection {
 				{
 					role: ['armorer'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.technicianGrade5
@@ -45,7 +45,7 @@ export default class MaintenanceSection {
 				{
                     role: ['automobile_mechanic'],
                     equipment: [
-                        weapons.carbine30calM1,
+                        equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.technicianGrade4,
@@ -54,7 +54,7 @@ export default class MaintenanceSection {
 				{
                     role: ['automobile_mechanic', 'half_track_driver'],
                     equipment: [
-                        weapons.smg45calM3,
+                        equipment.smg45calM3,
                     ],
                     rank: [
                         ranks.technicianGrade4,
@@ -63,7 +63,7 @@ export default class MaintenanceSection {
 				{
                     role: ['automobile_mechanic', 'jeep_driver'],
                     equipment: [
-                        weapons.smg45calM3,
+                        equipment.smg45calM3,
                     ],
                     rank: [
                         ranks.technicianGrade5,
@@ -71,8 +71,8 @@ export default class MaintenanceSection {
 				},
 			],
 			equipment: [
-				weapons.rocketLauncherM9,
-				weapons.grenadeLauncherM8,
+				equipment.rocketLauncherM9,
+				equipment.grenadeLauncherM8,
 			],
 			vehicles: [
 				{
@@ -84,7 +84,7 @@ export default class MaintenanceSection {
 				{
 					type: vehicles.halfTrackM3A2,
 					armament: [
-						weapons.mg50calM2HB,
+						equipment.mg50calM2HB,
 					],
 					equipment: []
 				}

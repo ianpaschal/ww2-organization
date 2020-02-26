@@ -8,7 +8,7 @@ export default class HQSquad {
                 {
                     role: ['platoon_commander'],
                     equipment: [
-                        weapons.carbine30calM1,
+                        equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.firstLieutenant,
@@ -18,7 +18,7 @@ export default class HQSquad {
                 {
                     role: ['platoon_technical_sergeant'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.technicalSergeant,
@@ -27,7 +27,7 @@ export default class HQSquad {
                 {
                     role: ['squad_leader'],
                     equipment: [
-                        weapons.carbine30calM1,
+                        equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.staffSergeant,
@@ -36,7 +36,7 @@ export default class HQSquad {
                 {
                     role: ['sniper'],
                     equipment: [
-                        weapons.rifle30calM1903A4,
+                        equipment.rifle30calM1903A4,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -46,7 +46,7 @@ export default class HQSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -56,7 +56,7 @@ export default class HQSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -66,7 +66,7 @@ export default class HQSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -76,7 +76,7 @@ export default class HQSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -86,7 +86,7 @@ export default class HQSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -96,7 +96,7 @@ export default class HQSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -106,7 +106,7 @@ export default class HQSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -116,7 +116,7 @@ export default class HQSquad {
                 {
                     role: ['half_track_driver'],
                     equipment: [
-                        weapons.smg45calM3,
+                        equipment.smg45calM3,
                     ],
                     rank: [
                         ranks.technicianGrade5,
@@ -124,15 +124,15 @@ export default class HQSquad {
                 }
             ],
             equipment: [
-                weapons.grenadeLauncherM7,
-                weapons.grenadeLauncherM7,
-                weapons.rocketLauncherM9,
+                equipment.grenadeLauncherM7,
+                equipment.grenadeLauncherM7,
+                equipment.rocketLauncherM9,
             ],
             vehicles: [
                 {
                     type: vehicles.halfTrackM3A2,
                     armament: [
-                        weapons.mg50calM2HB,
+                        equipment.mg50calM2HB,
                     ],
                     equipment: [
                         equipment.radioSetSCR510,

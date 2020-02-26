@@ -8,7 +8,7 @@ export default class AntiTankPlatoonHQ {
                 {
                     role: ['platoon_commander'],
                     equipment: [
-                        weapons.carbine30calM1,
+                        equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.firstLieutenant,
@@ -18,7 +18,7 @@ export default class AntiTankPlatoonHQ {
 				{
 					role: ['platoon_technical_sergeant'],
                     equipment: [
-                        weapons.carbine30calM1,
+                        equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.technicalSergeant,
@@ -27,7 +27,7 @@ export default class AntiTankPlatoonHQ {
 				{
 					role: ['messenger'],
                     equipment: [
-                        weapons.smg45calM3,
+                        equipment.smg45calM3,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -41,7 +41,7 @@ export default class AntiTankPlatoonHQ {
 					type: vehicles.truck1_4ton4x4,
 					armament: [],
 					equipment: [
-						weapons.grenadeLauncherM8,
+						equipment.grenadeLauncherM8,
 						equipment.radioSetSCR510,
 					]
 				}

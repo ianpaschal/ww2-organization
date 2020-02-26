@@ -8,7 +8,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['first_sergeant'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.firstSergeant,
@@ -17,7 +17,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['mess_officer'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.staffSergeant,
@@ -26,7 +26,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['supply_officer'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.staffSergeant,
@@ -35,7 +35,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['company_clerk'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.corporal,
@@ -44,7 +44,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['cook'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.technicianGrade4,
@@ -53,7 +53,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['cook'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.technicianGrade4,
@@ -62,7 +62,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['cook'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.technicianGrade5,
@@ -71,7 +71,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['cook'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.technicianGrade5,
@@ -80,7 +80,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['cook'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.technicianGrade5,
@@ -89,7 +89,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['cooks_helper'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -99,7 +99,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['jeep_driver'],
 					equipment: [
-						weapons.smg45calM3,
+						equipment.smg45calM3,
 					],
 					rank: [
 						ranks.technicianGrade5,
@@ -108,7 +108,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['jeep_driver'],
 					equipment: [
-						weapons.smg45calM3,
+						equipment.smg45calM3,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -118,7 +118,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['messenger'],
 					equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -128,7 +128,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -138,7 +138,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -148,7 +148,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -158,7 +158,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -168,7 +168,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -178,7 +178,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -188,7 +188,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -198,7 +198,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -208,7 +208,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -218,7 +218,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -228,7 +228,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -238,7 +238,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -248,7 +248,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -258,7 +258,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -268,7 +268,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -278,7 +278,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -288,7 +288,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -298,7 +298,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -308,7 +308,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -318,7 +318,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -328,7 +328,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -338,7 +338,7 @@ export default class AdminMessSupplySection {
 				{
 					role: ['basic'],
 					equipment: [
-						weapons.rifle30calM1,
+						equipment.rifle30calM1,
 					],
 					rank: [
 						ranks.privateFirstClass,
@@ -347,9 +347,9 @@ export default class AdminMessSupplySection {
 				}
 			],
 			equipment: [
-				weapons.grenadeLauncherM8,
-				weapons.grenadeLauncherM8,
-				weapons.rocketLauncherM9,
+				equipment.grenadeLauncherM8,
+				equipment.grenadeLauncherM8,
+				equipment.rocketLauncherM9,
 			],
 			vehicles: [
 				{

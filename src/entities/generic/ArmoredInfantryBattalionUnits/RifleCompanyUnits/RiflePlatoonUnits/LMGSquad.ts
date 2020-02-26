@@ -8,7 +8,7 @@ export default class LMGSquad {
                 {
                     role: ['squad_leader'],
                     equipment: [
-                        weapons.carbine30calM1
+                        equipment.carbine30calM1
                     ],
                     rank: [
                         ranks.staffSergeant,
@@ -17,7 +17,7 @@ export default class LMGSquad {
                 {
                     role: ['assistant_squad_leader'],
                     equipment: [
-                        weapons.carbine30calM1
+                        equipment.carbine30calM1
                     ],
                     rank: [
                         ranks.sergeant,
@@ -26,7 +26,7 @@ export default class LMGSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1
+                        equipment.rifle30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -36,7 +36,7 @@ export default class LMGSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1
+                        equipment.rifle30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -46,7 +46,7 @@ export default class LMGSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1
+                        equipment.rifle30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -56,7 +56,7 @@ export default class LMGSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1
+                        equipment.rifle30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -66,7 +66,7 @@ export default class LMGSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1
+                        equipment.rifle30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -76,7 +76,7 @@ export default class LMGSquad {
                 {
                     role: ['machine_gunner'],
                     equipment: [
-                        weapons.carbine30calM1
+                        equipment.carbine30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -86,7 +86,7 @@ export default class LMGSquad {
                 {
                     role: ['ammunition_handler'],
                     equipment: [
-                        weapons.carbine30calM1
+                        equipment.carbine30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -96,7 +96,7 @@ export default class LMGSquad {
                 {
                     role: ['machine_gunner'],
                     equipment: [
-                        weapons.carbine30calM1
+                        equipment.carbine30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -106,7 +106,7 @@ export default class LMGSquad {
                 {
                     role: ['ammunition_handler'],
                     equipment: [
-                        weapons.carbine30calM1
+                        equipment.carbine30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -116,7 +116,7 @@ export default class LMGSquad {
                 {
                     role: ['half_track_driver'],
                     equipment: [
-                        weapons.smg45calM3
+                        equipment.smg45calM3
                     ],
                     rank: [
                         ranks.technicianGrade5,
@@ -124,15 +124,15 @@ export default class LMGSquad {
                 }
             ],
             equipment: [
-                weapons.rocketLauncherM9,
-                weapons.mg30calM1919A4,
-                weapons.mg30calM1919A4,
+                equipment.rocketLauncherM9,
+                equipment.mg30calM1919A4,
+                equipment.mg30calM1919A4,
             ],
             vehicles: [
                 {
                     type: vehicles.halfTrackM3A2,
                     armament: [
-                        weapons.mg50calM2HB
+                        equipment.mg50calM2HB
                     ],
                     equipment: []
                 }

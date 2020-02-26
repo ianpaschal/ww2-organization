@@ -8,7 +8,7 @@ export default class MortarSquad {
                 {
                     role: ['squad_leader'],
                     equipment: [
-                        weapons.carbine30calM1
+                        equipment.carbine30calM1
                     ],
                     rank: [
                         ranks.staffSergeant,
@@ -17,7 +17,7 @@ export default class MortarSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1
+                        equipment.rifle30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -27,7 +27,7 @@ export default class MortarSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1
+                        equipment.rifle30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -37,7 +37,7 @@ export default class MortarSquad {
                 {
                     role: ['mortar_gunner'],
                     equipment: [
-                        weapons.carbine30calM1
+                        equipment.carbine30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -47,7 +47,7 @@ export default class MortarSquad {
                 {
                     role: ['ammunition_handler'],
                     equipment: [
-                        weapons.carbine30calM1
+                        equipment.carbine30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -57,7 +57,7 @@ export default class MortarSquad {
                 {
                     role: ['mortar_gunner'],
                     equipment: [
-                        weapons.carbine30calM1
+                        equipment.carbine30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -67,7 +67,7 @@ export default class MortarSquad {
                 {
                     role: ['ammunition_handler'],
                     equipment: [
-                        weapons.carbine30calM1
+                        equipment.carbine30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -77,7 +77,7 @@ export default class MortarSquad {
                 {
                     role: ['half_track_driver'],
                     equipment: [
-                        weapons.smg45calM3,
+                        equipment.smg45calM3,
                     ],
                     rank: [
                         ranks.technicianGrade5,
@@ -85,8 +85,8 @@ export default class MortarSquad {
                 }
             ],
             equipment: [
-                weapons.rocketLauncherM9,
-                weapons.mortar60mmM2,
+                equipment.rocketLauncherM9,
+                equipment.mortar60mmM2,
                 equipment.reelEquipmentCE11,
                 equipment.telephoneEE8,
                 equipment.telephoneEE8,
@@ -95,7 +95,7 @@ export default class MortarSquad {
                 {
                     type: vehicles.halfTrackM3A2,
                     armament: [
-                        weapons.mg30calM1917A1,
+                        equipment.mg30calM1917A1,
                     ],
                     equipment: []
                 }

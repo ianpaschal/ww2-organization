@@ -8,7 +8,7 @@ export default class HQSection {
 				{
                     role: ['company_commander'],
                     equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.captain,
@@ -17,7 +17,7 @@ export default class HQSection {
 				{
                     role: ['communication_chief'],
                     equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.sergeant,
@@ -26,7 +26,7 @@ export default class HQSection {
 				{
                     role: ['bugler'],
                     equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -36,7 +36,7 @@ export default class HQSection {
 				{
                     role: ['half_track_driver'],
                     equipment: [
-                        weapons.smg45calM3,
+                        equipment.smg45calM3,
                     ],
                     rank: [
                         ranks.technicianGrade5,
@@ -45,7 +45,7 @@ export default class HQSection {
 				{
                     role: ['machine_gunner'],
                     equipment: [
-						weapons.carbine30calM1,
+						equipment.carbine30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -55,7 +55,7 @@ export default class HQSection {
 				{
                     role: ['messenger', 'jeep_driver'],
                     equipment: [
-                        weapons.smg45calM3,
+                        equipment.smg45calM3,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -65,7 +65,7 @@ export default class HQSection {
 				{
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -75,7 +75,7 @@ export default class HQSection {
 				{
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -85,7 +85,7 @@ export default class HQSection {
 				{
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -96,8 +96,8 @@ export default class HQSection {
 			equipment: [
 				equipment.radioSetSCR536,
 				equipment.radioSetSCR536,
-				weapons.rocketLauncherM9,
-				weapons.grenadeLauncherM8,
+				equipment.rocketLauncherM9,
+				equipment.grenadeLauncherM8,
 			],
 			vehicles: [
 				{
@@ -109,7 +109,7 @@ export default class HQSection {
 				{
 					type: vehicles.halfTrackM3A2,
 					armament: [
-						weapons.mg50calM2HB,
+						equipment.mg50calM2HB,
 					],
 					equipment: [
 						equipment.radioSetSCR528,

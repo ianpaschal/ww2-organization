@@ -8,7 +8,7 @@ export default class RifleSquad {
                 {
                     role: ['squad_leader'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.staffSergeant,
@@ -17,7 +17,7 @@ export default class RifleSquad {
                 {
                     role: ['assistant_squad_leader'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.sergeant
@@ -26,7 +26,7 @@ export default class RifleSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -36,7 +36,7 @@ export default class RifleSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -46,7 +46,7 @@ export default class RifleSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -56,7 +56,7 @@ export default class RifleSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -66,7 +66,7 @@ export default class RifleSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -76,7 +76,7 @@ export default class RifleSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -86,7 +86,7 @@ export default class RifleSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -96,7 +96,7 @@ export default class RifleSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -106,7 +106,7 @@ export default class RifleSquad {
                 {
                     role: ['rifleman'],
                     equipment: [
-                        weapons.rifle30calM1,
+                        equipment.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -116,7 +116,7 @@ export default class RifleSquad {
                 {
                     role: ['half_track_driver'],
                     equipment: [
-                        weapons.smg45calM3,
+                        equipment.smg45calM3,
                     ],
                     rank: [
                         ranks.technicianGrade5,
@@ -124,15 +124,15 @@ export default class RifleSquad {
                 }
             ],
             equipment: [
-                weapons.rocketLauncherM9,
-                weapons.grenadeLauncherM7,
-                weapons.grenadeLauncherM7,
+                equipment.rocketLauncherM9,
+                equipment.grenadeLauncherM7,
+                equipment.grenadeLauncherM7,
             ],
             vehicles: [
                 {
                     type: vehicles.halfTrackM3A2,
                     armament: [
-                        weapons.mg30calM1917A1,
+                        equipment.mg30calM1917A1,
                     ],
                     equipment: [],
                 },
