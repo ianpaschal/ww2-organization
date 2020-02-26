@@ -1,9 +1,9 @@
-import { equipment, ranks, vehicles, weapons } from '../../terminology';
-import Unit, {UnitClass} from '../../Unit';
+import { equipment, ranks, vehicles, weapons } from '../../../../../terminology';
+import Unit, {UnitClass} from '../../../../../Unit';
 
-export default class LMGSquad {
+export default class MortarSquad {
     constructor() {
-        return new Unit(null, 'LMG', UnitClass.Squad, {
+        return new Unit(null, 'Mortar', UnitClass.Squad, {
             personnel: [
                 {
                     role: 'squad_leader',
@@ -15,15 +15,6 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'assistant_squad_leader',
-                    equipment: [
-                        weapons.carbine30calM1
-                    ],
-                    rank: [
-                        ranks.sergeant,
-                    ]
-                },
-                {
                     role: 'rifleman',
                     equipment: [
                         weapons.rifle30calM1
@@ -44,37 +35,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
-                    equipment: [
-                        weapons.rifle30calM1
-                    ],
-                    rank: [
-                        ranks.privateFirstClass,
-                        ranks.privateBasic,
-                    ]
-                },
-                {
-                    role: 'rifleman',
-                    equipment: [
-                        weapons.rifle30calM1
-                    ],
-                    rank: [
-                        ranks.privateFirstClass,
-                        ranks.privateBasic,
-                    ]
-                },
-                {
-                    role: 'rifleman',
-                    equipment: [
-                        weapons.rifle30calM1
-                    ],
-                    rank: [
-                        ranks.privateFirstClass,
-                        ranks.privateBasic,
-                    ]
-                },
-                {
-                    role: 'machine_gunner',
+                    role: 'mortar_gunner',
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -84,7 +45,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'handler_ammunition',
+                    role: 'ammunition_handler',
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -94,7 +55,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'machine_gunner',
+                    role: 'mortar_gunner',
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -104,7 +65,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'handler_ammunition',
+                    role: 'ammunition_handler',
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -116,7 +77,7 @@ export default class LMGSquad {
                 {
                     role: 'driver',
                     equipment: [
-                        weapons.smg45calM3
+                        weapons.smg45calM3,
                     ],
                     rank: [
                         ranks.technicianGrade5,
@@ -125,14 +86,16 @@ export default class LMGSquad {
             ],
             equipment: [
                 weapons.rocketLauncherM9,
-                weapons.mg30calM1919A4,
-                weapons.mg30calM1919A4,
+                weapons.mortar60mmM2,
+                equipment.reelEquipmentCE11,
+                equipment.telephoneEE8,
+                equipment.telephoneEE8,
             ],
             vehicles: [
                 {
                     type: vehicles.halfTrackM3A2,
                     armament: [
-                        weapons.mg50calM2HB
+                        weapons.mg30calM1917A1,
                     ],
                     equipment: []
                 }

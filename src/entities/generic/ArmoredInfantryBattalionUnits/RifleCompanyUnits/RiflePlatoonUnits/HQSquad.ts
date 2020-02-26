@@ -1,23 +1,42 @@
-import { equipment, ranks, vehicles, weapons } from '../../terminology';
-import Unit, {UnitClass} from '../../Unit';
+import { equipment, ranks, vehicles, weapons } from '../../../../../terminology';
+import Unit, {UnitClass} from '../../../../../Unit';
 
-export default class MortarSquad {
+export default class HQSquad {
     constructor() {
-        return new Unit(null, 'Mortar', UnitClass.Squad, {
+        return new Unit(null, 'HQ', UnitClass.Squad, {
             personnel: [
+                {
+                    role: 'platoon_commander',
+                    equipment: [
+                        weapons.carbine30calM1,
+                    ],
+                    rank: [
+                        ranks.firstLieutenant,
+                        ranks.secondLieutenant,
+                    ]
+                },
+                {
+                    role: 'platoon_technical_sergeant',
+                    equipment: [
+                        weapons.rifle30calM1,
+                    ],
+                    rank: [
+                        ranks.technicalSergeant,
+                    ]
+                },
                 {
                     role: 'squad_leader',
                     equipment: [
-                        weapons.carbine30calM1
+                        weapons.carbine30calM1,
                     ],
                     rank: [
                         ranks.staffSergeant,
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: 'sniper',
                     equipment: [
-                        weapons.rifle30calM1
+                        weapons.rifle30calM1903A4,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -27,7 +46,7 @@ export default class MortarSquad {
                 {
                     role: 'rifleman',
                     equipment: [
-                        weapons.rifle30calM1
+                        weapons.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -35,9 +54,9 @@ export default class MortarSquad {
                     ]
                 },
                 {
-                    role: 'mortar_gunner',
+                    role: 'rifleman',
                     equipment: [
-                        weapons.carbine30calM1
+                        weapons.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -45,9 +64,9 @@ export default class MortarSquad {
                     ]
                 },
                 {
-                    role: 'ammunition_handler',
+                    role: 'rifleman',
                     equipment: [
-                        weapons.carbine30calM1
+                        weapons.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -55,9 +74,9 @@ export default class MortarSquad {
                     ]
                 },
                 {
-                    role: 'mortar_gunner',
+                    role: 'rifleman',
                     equipment: [
-                        weapons.carbine30calM1
+                        weapons.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -65,9 +84,29 @@ export default class MortarSquad {
                     ]
                 },
                 {
-                    role: 'ammunition_handler',
+                    role: 'rifleman',
                     equipment: [
-                        weapons.carbine30calM1
+                        weapons.rifle30calM1,
+                    ],
+                    rank: [
+                        ranks.privateFirstClass,
+                        ranks.privateBasic,
+                    ]
+                },
+                {
+                    role: 'rifleman',
+                    equipment: [
+                        weapons.rifle30calM1,
+                    ],
+                    rank: [
+                        ranks.privateFirstClass,
+                        ranks.privateBasic,
+                    ]
+                },
+                {
+                    role: 'rifleman',
+                    equipment: [
+                        weapons.rifle30calM1,
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -85,21 +124,21 @@ export default class MortarSquad {
                 }
             ],
             equipment: [
+                weapons.grenadeLauncherM7,
+                weapons.grenadeLauncherM7,
                 weapons.rocketLauncherM9,
-                weapons.mortar60mmM2,
-                equipment.reelEquipmentCE11,
-                equipment.telephoneEE8,
-                equipment.telephoneEE8,
             ],
             vehicles: [
                 {
                     type: vehicles.halfTrackM3A2,
                     armament: [
-                        weapons.mg30calM1917A1,
+                        weapons.mg50calM2HB,
                     ],
-                    equipment: []
+                    equipment: [
+                        equipment.radioSetSCR510,
+                    ]
                 }
-            ]
+            ],
         }, {
             date: new Date(1943, 9, 15),
             name: 'T/O&E 7-27',

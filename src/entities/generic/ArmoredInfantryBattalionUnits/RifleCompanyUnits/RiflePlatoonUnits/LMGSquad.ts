@@ -1,42 +1,32 @@
-import { equipment, ranks, vehicles, weapons } from '../../terminology';
-import Unit, {UnitClass} from '../../Unit';
+import { equipment, ranks, vehicles, weapons } from '../../../../../terminology';
+import Unit, {UnitClass} from '../../../../../Unit';
 
-export default class HQSquad {
+export default class LMGSquad {
     constructor() {
-        return new Unit(null, 'HQ', UnitClass.Squad, {
+        return new Unit(null, 'LMG', UnitClass.Squad, {
             personnel: [
-                {
-                    role: 'platoon_commander',
-                    equipment: [
-                        weapons.carbine30calM1,
-                    ],
-                    rank: [
-                        ranks.firstLieutenant,
-                        ranks.secondLieutenant,
-                    ]
-                },
-                {
-                    role: 'platoon_technical_sergeant',
-                    equipment: [
-                        weapons.rifle30calM1,
-                    ],
-                    rank: [
-                        ranks.technicalSergeant,
-                    ]
-                },
                 {
                     role: 'squad_leader',
                     equipment: [
-                        weapons.carbine30calM1,
+                        weapons.carbine30calM1
                     ],
                     rank: [
                         ranks.staffSergeant,
                     ]
                 },
                 {
-                    role: 'sniper',
+                    role: 'assistant_squad_leader',
                     equipment: [
-                        weapons.rifle30calM1903A4,
+                        weapons.carbine30calM1
+                    ],
+                    rank: [
+                        ranks.sergeant,
+                    ]
+                },
+                {
+                    role: 'rifleman',
+                    equipment: [
+                        weapons.rifle30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -46,7 +36,7 @@ export default class HQSquad {
                 {
                     role: 'rifleman',
                     equipment: [
-                        weapons.rifle30calM1,
+                        weapons.rifle30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -56,7 +46,7 @@ export default class HQSquad {
                 {
                     role: 'rifleman',
                     equipment: [
-                        weapons.rifle30calM1,
+                        weapons.rifle30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -66,7 +56,7 @@ export default class HQSquad {
                 {
                     role: 'rifleman',
                     equipment: [
-                        weapons.rifle30calM1,
+                        weapons.rifle30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -76,7 +66,7 @@ export default class HQSquad {
                 {
                     role: 'rifleman',
                     equipment: [
-                        weapons.rifle30calM1,
+                        weapons.rifle30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -84,9 +74,9 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: 'machine_gunner',
                     equipment: [
-                        weapons.rifle30calM1,
+                        weapons.carbine30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -94,9 +84,9 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: 'handler_ammunition',
                     equipment: [
-                        weapons.rifle30calM1,
+                        weapons.carbine30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -104,9 +94,19 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: 'machine_gunner',
                     equipment: [
-                        weapons.rifle30calM1,
+                        weapons.carbine30calM1
+                    ],
+                    rank: [
+                        ranks.privateFirstClass,
+                        ranks.privateBasic,
+                    ]
+                },
+                {
+                    role: 'handler_ammunition',
+                    equipment: [
+                        weapons.carbine30calM1
                     ],
                     rank: [
                         ranks.privateFirstClass,
@@ -116,7 +116,7 @@ export default class HQSquad {
                 {
                     role: 'driver',
                     equipment: [
-                        weapons.smg45calM3,
+                        weapons.smg45calM3
                     ],
                     rank: [
                         ranks.technicianGrade5,
@@ -124,21 +124,19 @@ export default class HQSquad {
                 }
             ],
             equipment: [
-                weapons.grenadeLauncherM7,
-                weapons.grenadeLauncherM7,
                 weapons.rocketLauncherM9,
+                weapons.mg30calM1919A4,
+                weapons.mg30calM1919A4,
             ],
             vehicles: [
                 {
                     type: vehicles.halfTrackM3A2,
                     armament: [
-                        weapons.mg50calM2HB,
+                        weapons.mg50calM2HB
                     ],
-                    equipment: [
-                        equipment.radioSetSCR510,
-                    ]
+                    equipment: []
                 }
-            ],
+            ]
         }, {
             date: new Date(1943, 9, 15),
             name: 'T/O&E 7-27',

@@ -1,30 +1,70 @@
-import { equipment, ranks, vehicles, weapons } from '../../terminology';
-import Unit, {UnitClass} from '../../Unit';
+import { equipment, ranks, vehicles, weapons } from '../../../../../terminology';
+import Unit, {UnitClass} from '../../../../../Unit';
 
-export default class RifleSquad {
-    constructor() {
-        return new Unit(null, 'rifle', UnitClass.Squad, {
+export default class AntiTankSquad {
+    constructor(uses50calMG: boolean = false) {
+        return new Unit(null, 'Anti-Tank', UnitClass.Squad, {
             personnel: [
                 {
                     role: 'squad_leader',
                     equipment: [
-                        weapons.rifle30calM1,
+                        weapons.carbine30calM1,
                     ],
                     rank: [
                         ranks.staffSergeant,
                     ]
-                },
-                {
-                    role: 'assistant_squad_leader',
+				},
+				{
+					role: 'gunner_anti_tank',
                     equipment: [
-                        weapons.rifle30calM1,
+                        weapons.carbine30calM1,
                     ],
                     rank: [
-                        ranks.sergeant
+                        ranks.corporal,
                     ]
-                },
-                {
-                    role: 'rifleman',
+				},
+				{
+					role: 'cannoneer',
+                    equipment: [
+						weapons.carbine30calM1,
+                    ],
+                    rank: [
+                        ranks.privateFirstClass,
+                        ranks.privateBasic,
+                    ]
+				},
+				{
+					role: 'cannoneer',
+                    equipment: [
+						weapons.carbine30calM1,
+                    ],
+                    rank: [
+                        ranks.privateFirstClass,
+                        ranks.privateBasic,
+                    ]
+				},
+				{
+					role: 'cannoneer',
+                    equipment: [
+						weapons.carbine30calM1,
+                    ],
+                    rank: [
+                        ranks.privateFirstClass,
+                        ranks.privateBasic,
+                    ]
+				},
+				{
+					role: 'cannoneer',
+                    equipment: [
+						weapons.carbine30calM1,
+                    ],
+                    rank: [
+                        ranks.privateFirstClass,
+                        ranks.privateBasic,
+                    ]
+				},
+				{
+					role: 'handler_ammunition',
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -32,9 +72,9 @@ export default class RifleSquad {
                         ranks.privateFirstClass,
                         ranks.privateBasic,
                     ]
-                },
-                {
-                    role: 'rifleman',
+				},
+				{
+					role: 'handler_ammunition',
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -42,9 +82,9 @@ export default class RifleSquad {
                         ranks.privateFirstClass,
                         ranks.privateBasic,
                     ]
-                },
-                {
-                    role: 'rifleman',
+				},
+				{
+					role: 'handler_ammunition',
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -52,71 +92,11 @@ export default class RifleSquad {
                         ranks.privateFirstClass,
                         ranks.privateBasic,
                     ]
-                },
-                {
-                    role: 'rifleman',
-                    equipment: [
-                        weapons.rifle30calM1,
-                    ],
-                    rank: [
-                        ranks.privateFirstClass,
-                        ranks.privateBasic,
-                    ]
-                },
-                {
-                    role: 'rifleman',
-                    equipment: [
-                        weapons.rifle30calM1,
-                    ],
-                    rank: [
-                        ranks.privateFirstClass,
-                        ranks.privateBasic,
-                    ]
-                },
-                {
-                    role: 'rifleman',
-                    equipment: [
-                        weapons.rifle30calM1,
-                    ],
-                    rank: [
-                        ranks.privateFirstClass,
-                        ranks.privateBasic,
-                    ]
-                },
-                {
-                    role: 'rifleman',
-                    equipment: [
-                        weapons.rifle30calM1,
-                    ],
-                    rank: [
-                        ranks.privateFirstClass,
-                        ranks.privateBasic,
-                    ]
-                },
-                {
-                    role: 'rifleman',
-                    equipment: [
-                        weapons.rifle30calM1,
-                    ],
-                    rank: [
-                        ranks.privateFirstClass,
-                        ranks.privateBasic,
-                    ]
-                },
-                {
-                    role: 'rifleman',
-                    equipment: [
-                        weapons.rifle30calM1,
-                    ],
-                    rank: [
-                        ranks.privateFirstClass,
-                        ranks.privateBasic,
-                    ]
-                },
+				},
                 {
                     role: 'driver',
                     equipment: [
-                        weapons.smg45calM3,
+                        weapons.smg45calM3
                     ],
                     rank: [
                         ranks.technicianGrade5,
@@ -124,18 +104,19 @@ export default class RifleSquad {
                 }
             ],
             equipment: [
-                weapons.rocketLauncherM9,
-                weapons.grenadeLauncherM7,
-                weapons.grenadeLauncherM7,
-            ],
+				weapons.atGun57mmM1CarriageM2,
+			],
             vehicles: [
-                {
-                    type: vehicles.halfTrackM3A2,
-                    armament: [
-                        weapons.mg30calM1917A1,
-                    ],
-                    equipment: [],
-                },
+				{
+					type: vehicles.halfTrackM3A2,
+					armament: [
+						uses50calMG ? weapons.mg50calM2HB : weapons.mg30calM1917A1,
+					],
+					equipment: [
+						weapons.grenadeLauncherM8,
+						equipment.radioSetSCR510,
+					]
+				}
             ],
         }, {
             date: new Date(1943, 9, 15),

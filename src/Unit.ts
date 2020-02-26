@@ -11,12 +11,15 @@ export interface UnitContains {
 export enum UnitClass {
     Division = 'Division',
     Regiment = 'Regiment',
-    Battalion = 'Battalion',
-    Battery = 'Battery',
-    Company = 'Company',
-    Platoon = 'Platoon',
-    Section = 'Section',
-    Squad = 'Squad',
+	Battalion = 'Battalion',
+	BattalionHQ = 'Battalion HQ', // Same level as 'Company' or 'Battery'
+    Battery = 'Battery', // Same level as 'Company'
+	Company = 'Company', // Same level as 'Battery'
+	CompanyHQ = 'Company HQ', // Same level as 'Platoon'
+	Platoon = 'Platoon',
+	PlatoonHQ = 'Platoon HQ', // Same level as 'Squad' or 'Section'
+    Section = 'Section', // Same level as 'Squad'
+    Squad = 'Squad', // Same level as 'Section'
 }
 
 export default class Unit {
