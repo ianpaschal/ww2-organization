@@ -1,11 +1,24 @@
 import capitalize from './utils/capitalize';
 import makeOrdinalSuffix from './utils/makeOrdinalSuffix';
+import Term from './Term';
+
+export interface Personnel {
+	role: string[];
+	equipment: Term[];
+	rank: Term[];
+}
+
+export interface Vehicle {
+	type: Term;
+	armament?: Term[];
+	equipment?: Term[];
+}
 
 export interface UnitContains {
     subUnits?: any[];
-    personnel?: any[];
-    equipment?: any[];
-    vehicles?: any[];
+    personnel?: Personnel[];
+    equipment?: Term[];
+    vehicles?: Vehicle[];
 }
 
 export enum UnitClass {

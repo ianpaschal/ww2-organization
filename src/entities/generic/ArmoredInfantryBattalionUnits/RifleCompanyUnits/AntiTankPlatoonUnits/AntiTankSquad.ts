@@ -6,7 +6,7 @@ export default class AntiTankSquad {
         return new Unit(null, 'Anti-Tank', UnitClass.Squad, {
             personnel: [
                 {
-                    role: 'squad_leader',
+                    role: ['squad_leader'],
                     equipment: [
                         weapons.carbine30calM1,
                     ],
@@ -15,7 +15,7 @@ export default class AntiTankSquad {
                     ]
 				},
 				{
-					role: 'gunner_anti_tank',
+					role: ['anti_tank_gunner'],
                     equipment: [
                         weapons.carbine30calM1,
                     ],
@@ -24,7 +24,7 @@ export default class AntiTankSquad {
                     ]
 				},
 				{
-					role: 'cannoneer',
+					role: ['cannoneer'],
                     equipment: [
 						weapons.carbine30calM1,
                     ],
@@ -34,7 +34,7 @@ export default class AntiTankSquad {
                     ]
 				},
 				{
-					role: 'cannoneer',
+					role: ['cannoneer'],
                     equipment: [
 						weapons.carbine30calM1,
                     ],
@@ -44,7 +44,7 @@ export default class AntiTankSquad {
                     ]
 				},
 				{
-					role: 'cannoneer',
+					role: ['cannoneer'],
                     equipment: [
 						weapons.carbine30calM1,
                     ],
@@ -54,7 +54,7 @@ export default class AntiTankSquad {
                     ]
 				},
 				{
-					role: 'cannoneer',
+					role: ['cannoneer'],
                     equipment: [
 						weapons.carbine30calM1,
                     ],
@@ -64,7 +64,7 @@ export default class AntiTankSquad {
                     ]
 				},
 				{
-					role: 'handler_ammunition',
+					role: ['ammunition_handler'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -74,7 +74,7 @@ export default class AntiTankSquad {
                     ]
 				},
 				{
-					role: 'handler_ammunition',
+					role: ['ammunition_handler'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -84,7 +84,7 @@ export default class AntiTankSquad {
                     ]
 				},
 				{
-					role: 'handler_ammunition',
+					role: ['ammunition_handler'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -94,7 +94,7 @@ export default class AntiTankSquad {
                     ]
 				},
                 {
-                    role: 'driver',
+                    role: ['half_track_driver'],
                     equipment: [
                         weapons.smg45calM3
                     ],

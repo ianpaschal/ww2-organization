@@ -6,7 +6,7 @@ export default class AdminMessSupplySection {
         return new Unit(null, 'Administrative, Mess & Supply', UnitClass.Section, {
             personnel: [
 				{
-					role: 'first_sergeant',
+					role: ['first_sergeant'],
 					equipment: [
 						weapons.carbine30calM1,
 					],
@@ -15,7 +15,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'mess_officer',
+					role: ['mess_officer'],
 					equipment: [
 						weapons.carbine30calM1,
 					],
@@ -24,7 +24,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'supply_officer',
+					role: ['supply_officer'],
 					equipment: [
 						weapons.carbine30calM1,
 					],
@@ -33,7 +33,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'company_clerk',
+					role: ['company_clerk'],
 					equipment: [
 						weapons.carbine30calM1,
 					],
@@ -42,7 +42,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'cook',
+					role: ['cook'],
 					equipment: [
 						weapons.carbine30calM1,
 					],
@@ -51,7 +51,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'cook',
+					role: ['cook'],
 					equipment: [
 						weapons.carbine30calM1,
 					],
@@ -60,7 +60,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'cook',
+					role: ['cook'],
 					equipment: [
 						weapons.carbine30calM1,
 					],
@@ -69,7 +69,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'cook',
+					role: ['cook'],
 					equipment: [
 						weapons.carbine30calM1,
 					],
@@ -78,7 +78,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'cook',
+					role: ['cook'],
 					equipment: [
 						weapons.carbine30calM1,
 					],
@@ -87,7 +87,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'cooks_helper',
+					role: ['cooks_helper'],
 					equipment: [
 						weapons.carbine30calM1,
 					],
@@ -97,7 +97,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'driver_light_truck',
+					role: ['jeep_driver'],
 					equipment: [
 						weapons.smg45calM3,
 					],
@@ -106,7 +106,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'driver_light_truck',
+					role: ['jeep_driver'],
 					equipment: [
 						weapons.smg45calM3,
 					],
@@ -116,7 +116,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'messenger',
+					role: ['messenger'],
 					equipment: [
 						weapons.carbine30calM1,
 					],
@@ -126,7 +126,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -136,7 +136,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -146,7 +146,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -156,7 +156,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -166,7 +166,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -176,7 +176,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -186,7 +186,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -196,7 +196,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -206,7 +206,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -216,7 +216,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -226,7 +226,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -236,7 +236,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -246,7 +246,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -256,7 +256,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -266,7 +266,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -276,7 +276,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -286,7 +286,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -296,7 +296,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -306,7 +306,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -316,7 +316,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -326,7 +326,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],
@@ -336,7 +336,7 @@ export default class AdminMessSupplySection {
 					]
 				},
 				{
-					role: 'basic',
+					role: ['basic'],
 					equipment: [
 						weapons.rifle30calM1,
 					],

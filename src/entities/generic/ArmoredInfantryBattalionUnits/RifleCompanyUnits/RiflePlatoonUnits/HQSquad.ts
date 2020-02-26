@@ -6,7 +6,7 @@ export default class HQSquad {
         return new Unit(null, 'HQ', UnitClass.Squad, {
             personnel: [
                 {
-                    role: 'platoon_commander',
+                    role: ['platoon_commander'],
                     equipment: [
                         weapons.carbine30calM1,
                     ],
@@ -16,7 +16,7 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'platoon_technical_sergeant',
+                    role: ['platoon_technical_sergeant'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -25,7 +25,7 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'squad_leader',
+                    role: ['squad_leader'],
                     equipment: [
                         weapons.carbine30calM1,
                     ],
@@ -34,7 +34,7 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'sniper',
+                    role: ['sniper'],
                     equipment: [
                         weapons.rifle30calM1903A4,
                     ],
@@ -44,7 +44,7 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -54,7 +54,7 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -64,7 +64,7 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -74,7 +74,7 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -84,7 +84,7 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -94,7 +94,7 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -104,7 +104,7 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -114,7 +114,7 @@ export default class HQSquad {
                     ]
                 },
                 {
-                    role: 'driver',
+                    role: ['half_track_driver'],
                     equipment: [
                         weapons.smg45calM3,
                     ],

@@ -6,7 +6,7 @@ export default class HQSection {
         return new Unit(null, 'HQ', UnitClass.Section, {
 			personnel: [
 				{
-                    role: 'company_commander',
+                    role: ['company_commander'],
                     equipment: [
 						weapons.carbine30calM1,
                     ],
@@ -15,7 +15,7 @@ export default class HQSection {
                     ]
 				},
 				{
-                    role: 'communication_chief',
+                    role: ['communication_chief'],
                     equipment: [
 						weapons.carbine30calM1,
                     ],
@@ -24,7 +24,7 @@ export default class HQSection {
                     ]
 				},
 				{
-                    role: 'bugler',
+                    role: ['bugler'],
                     equipment: [
 						weapons.carbine30calM1,
                     ],
@@ -34,7 +34,7 @@ export default class HQSection {
                     ]
 				},
 				{
-                    role: 'half_track_driver',
+                    role: ['half_track_driver'],
                     equipment: [
                         weapons.smg45calM3,
                     ],
@@ -43,7 +43,7 @@ export default class HQSection {
                     ]
 				},
 				{
-                    role: 'machine_gunner',
+                    role: ['machine_gunner'],
                     equipment: [
 						weapons.carbine30calM1,
                     ],
@@ -63,7 +63,7 @@ export default class HQSection {
                     ]
 				},
 				{
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -73,7 +73,7 @@ export default class HQSection {
                     ]
 				},
 				{
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],
@@ -83,7 +83,7 @@ export default class HQSection {
                     ]
 				},
 				{
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1,
                     ],

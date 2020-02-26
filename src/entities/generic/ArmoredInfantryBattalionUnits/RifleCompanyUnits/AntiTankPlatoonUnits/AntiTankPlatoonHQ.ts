@@ -6,7 +6,7 @@ export default class AntiTankPlatoonHQ {
         return new Unit(null, 'Anti-Tank', UnitClass.PlatoonHQ, {
             personnel: [
                 {
-                    role: 'platoon_commander',
+                    role: ['platoon_commander'],
                     equipment: [
                         weapons.carbine30calM1,
                     ],
@@ -16,7 +16,7 @@ export default class AntiTankPlatoonHQ {
                     ]
 				},
 				{
-					role: 'platoon_technical_sergeant',
+					role: ['platoon_technical_sergeant'],
                     equipment: [
                         weapons.carbine30calM1,
                     ],
@@ -25,7 +25,7 @@ export default class AntiTankPlatoonHQ {
                     ]
 				},
 				{
-					role: 'messenger',
+					role: ['messenger'],
                     equipment: [
                         weapons.smg45calM3,
                     ],

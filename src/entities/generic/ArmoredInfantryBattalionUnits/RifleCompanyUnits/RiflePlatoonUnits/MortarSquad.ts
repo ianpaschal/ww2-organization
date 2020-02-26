@@ -6,7 +6,7 @@ export default class MortarSquad {
         return new Unit(null, 'Mortar', UnitClass.Squad, {
             personnel: [
                 {
-                    role: 'squad_leader',
+                    role: ['squad_leader'],
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -15,7 +15,7 @@ export default class MortarSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1
                     ],
@@ -25,7 +25,7 @@ export default class MortarSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1
                     ],
@@ -35,7 +35,7 @@ export default class MortarSquad {
                     ]
                 },
                 {
-                    role: 'mortar_gunner',
+                    role: ['mortar_gunner'],
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -45,7 +45,7 @@ export default class MortarSquad {
                     ]
                 },
                 {
-                    role: 'ammunition_handler',
+                    role: ['ammunition_handler'],
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -55,7 +55,7 @@ export default class MortarSquad {
                     ]
                 },
                 {
-                    role: 'mortar_gunner',
+                    role: ['mortar_gunner'],
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -65,7 +65,7 @@ export default class MortarSquad {
                     ]
                 },
                 {
-                    role: 'ammunition_handler',
+                    role: ['ammunition_handler'],
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -75,7 +75,7 @@ export default class MortarSquad {
                     ]
                 },
                 {
-                    role: 'driver',
+                    role: ['half_track_driver'],
                     equipment: [
                         weapons.smg45calM3,
                     ],

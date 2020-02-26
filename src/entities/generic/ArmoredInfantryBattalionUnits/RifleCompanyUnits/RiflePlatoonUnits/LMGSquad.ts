@@ -6,7 +6,7 @@ export default class LMGSquad {
         return new Unit(null, 'LMG', UnitClass.Squad, {
             personnel: [
                 {
-                    role: 'squad_leader',
+                    role: ['squad_leader'],
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -15,7 +15,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'assistant_squad_leader',
+                    role: ['assistant_squad_leader'],
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -24,7 +24,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1
                     ],
@@ -34,7 +34,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1
                     ],
@@ -44,7 +44,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1
                     ],
@@ -54,7 +54,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1
                     ],
@@ -64,7 +64,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'rifleman',
+                    role: ['rifleman'],
                     equipment: [
                         weapons.rifle30calM1
                     ],
@@ -74,7 +74,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'machine_gunner',
+                    role: ['machine_gunner'],
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -84,7 +84,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'handler_ammunition',
+                    role: ['ammunition_handler'],
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -94,7 +94,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'machine_gunner',
+                    role: ['machine_gunner'],
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -104,7 +104,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'handler_ammunition',
+                    role: ['ammunition_handler'],
                     equipment: [
                         weapons.carbine30calM1
                     ],
@@ -114,7 +114,7 @@ export default class LMGSquad {
                     ]
                 },
                 {
-                    role: 'driver',
+                    role: ['half_track_driver'],
                     equipment: [
                         weapons.smg45calM3
                     ],
