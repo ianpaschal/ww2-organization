@@ -82,16 +82,28 @@ export default class Unit {
     	return `${this.unitType} ${capitalize(this.unitClass)}`;
     }
 
-    get flattened() {
-    	return this.contains.flattened;
+    // get flattened() {
+    // 	return this.contains.flattened;
+    // }
+
+    // get json(): string {
+    // 	return JSON.stringify(this.flattened);
+    // }
+
+    get subUnits(): Unit[] {
+    	return this.contains.subUnits || [];
     }
 
-    get json(): string {
-    	return JSON.stringify(this.flattened);
+    get personnel(): Personnel[] {
+    	return this.contains.personnel || [];
     }
 
-    get children(): Unit[] {
-    	return this.contains.subUnits;
+    get personnelCount(): number {
+    	let num = this.personnel.length;
+    	this.subUnits.forEach((unit) => {
+    		num += unit.personnelCount;
+    	});
+    	return num;
     }
 
 	// findSubUnit(identifier: number|string) {

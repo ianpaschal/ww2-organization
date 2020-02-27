@@ -4,6 +4,7 @@ import Slider from 'react-input-slider';
 import SampleDivision from '../entities/SampleDivision';
 import GraphicRenderer from './GraphicRenderer';
 import { LMGSquad } from '../entities/generic/ArmoredInfantryBattalionUnits/RifleCompanyUnits/RiflePlatoonUnits';
+import UnitBox from './UnitBox';
 
 class App extends React.Component {
 
@@ -20,21 +21,22 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className="App">
-				{SampleDivision.children.map((unit, i) => {
+				<UnitBox unit={SampleDivision}/>
+				{/* {SampleDivision.children.map((unit, i) => {
 					return <div key={i}>
 						{unit.nameLabel}{unit.children.map((sub, j) => {
 							return <div key={j}>{sub.nameLabel}</div>;
 						})}
 					</div>;
-				})}
-				<GraphicRenderer unit={new LMGSquad()} />
+				})} */}
+				{/* <GraphicRenderer unit={new LMGSquad()} />
 				<div>
 					<Slider
 						axis="x"
 						x={this.state.x}
 						onChange={({ x }) => this.setState({ x })}
 					/>
-				</div>
+				</div> */}
 			</div>
 		);
 	}
