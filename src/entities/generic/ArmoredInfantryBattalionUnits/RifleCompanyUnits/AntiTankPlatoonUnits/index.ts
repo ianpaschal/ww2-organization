@@ -4,4 +4,4 @@ import AntiTankSquad from './AntiTankSquad';
 export {
 	AntiTankPlatoonHQ,
 	AntiTankSquad,
-}
+};

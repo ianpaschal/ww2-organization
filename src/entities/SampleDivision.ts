@@ -1,4 +1,4 @@
-import Unit, {UnitClass} from '../Unit';
+import Unit, { UnitClass } from '../Unit';
 import ArmoredInfantryBattalion from './generic/ArmoredInfantryBattalion';
 
 export default new Unit(2, 'Armored', UnitClass.Division, {

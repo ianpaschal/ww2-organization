@@ -20,13 +20,12 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className="App">
-				Hello world!
 				{SampleDivision.children.map((unit, i) => {
 					return <div key={i}>
 						{unit.nameLabel}{unit.children.map((sub, j) => {
-							return <div key={j}>{sub.nameLabel}</div>
+							return <div key={j}>{sub.nameLabel}</div>;
 						})}
-					</div>
+					</div>;
 				})}
 				<GraphicRenderer unit={new LMGSquad()} />
 				<div>

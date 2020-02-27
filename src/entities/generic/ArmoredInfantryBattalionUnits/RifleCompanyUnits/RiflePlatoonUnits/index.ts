@@ -8,4 +8,4 @@ export {
 	RifleSquad,
 	MortarSquad,
 	LMGSquad,
-}
+};

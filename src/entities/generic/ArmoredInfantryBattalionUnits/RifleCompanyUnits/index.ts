@@ -6,4 +6,4 @@ export {
 	RifleCompanyHQ,
 	AntiTankPlatoon,
 	RiflePlatoon,
-}
+};

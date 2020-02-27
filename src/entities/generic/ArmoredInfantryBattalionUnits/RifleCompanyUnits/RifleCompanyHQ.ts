@@ -1,21 +1,21 @@
-import Unit, {UnitClass} from '../../../../Unit';
+import Unit, { UnitClass } from '../../../../Unit';
 import {
 	HQSection,
 	MaintenanceSection,
-	AdminMessSupplySection
+	AdminMessSupplySection,
 } from './RifleCompanyHQUnits';
 
 export default class RifleCompanyHQ {
-    constructor() {
-        return new Unit(null, 'Rifle', UnitClass.CompanyHQ, {
-            subUnits: [
+	constructor() {
+		return new Unit(null, 'Rifle', UnitClass.CompanyHQ, {
+			subUnits: [
 				new HQSection(),
 				new MaintenanceSection(),
-                new AdminMessSupplySection(),
-            ],
-        }, {
-            date: new Date(1943, 9, 15),
-            name: 'T/O&E 7-27',
-        });
-    }
+				new AdminMessSupplySection(),
+			],
+		}, {
+			date: new Date(1943, 9, 15),
+			name: 'T/O&E 7-27',
+		});
+	}
 }

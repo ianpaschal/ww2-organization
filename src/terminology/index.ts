@@ -3,7 +3,7 @@ import * as ranks from './ranks';
 import * as vehicles from './vehicles';
 
 export {
-    equipment,
-    ranks,
-    vehicles,
+	equipment,
+	ranks,
+	vehicles,
 };

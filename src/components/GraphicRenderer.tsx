@@ -7,7 +7,7 @@ interface GraphicRendererProps {
 
 export default class GraphicRenderer extends React.Component<GraphicRendererProps> {
 	render() {
-		console.log(this.props.unit.contains.personnel)
+		console.log(this.props.unit.contains.personnel);
 		return (
 			// <div>{JSON.stringify(this.props.unit.contains.personnel)}</div>
 			<div>
