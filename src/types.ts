@@ -1,6 +1,10 @@
 export interface Term {
-    display?: string;
-    official: string;
-    nicknames?: string[];
-    abbreviation?: string;
+	official: string;
+	display?: string;
+	nicknames?: string[];
+	abbreviation?: string;
+}
+
+export interface Role extends Term {
+	specNumber?: number;
 }
