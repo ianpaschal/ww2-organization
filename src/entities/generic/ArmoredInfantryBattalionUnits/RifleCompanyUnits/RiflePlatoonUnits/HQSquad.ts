@@ -1,4 +1,4 @@
-import { equipment, ranks, vehicles, weapons } from '../../../../../terminology';
+import { equipment, ranks, vehicles } from '../../../../../terminology';
 import Unit, {UnitClass} from '../../../../../Unit';
 
 export default class HQSquad {

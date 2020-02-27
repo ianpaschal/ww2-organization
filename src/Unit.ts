@@ -78,7 +78,11 @@ export default class Unit {
 
     get json(): string {
         return JSON.stringify(this.flattened);
-    }
+	}
+
+	get children(): Unit[] {
+		return this.contains.subUnits;
+	}
 
     // findSubUnit(identifier: number|string) {
     //     return this.contains.find((unit) => {

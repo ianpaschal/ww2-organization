@@ -1,5 +1,5 @@
 import Unit, {UnitClass} from '../../../../../Unit';
-import { equipment, vehicles, weapons, ranks } from '../../../../../terminology';
+import { equipment, vehicles, ranks } from '../../../../../terminology';
 
 export default class MaintenanceSection {
     constructor() {
