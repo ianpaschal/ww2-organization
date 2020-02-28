@@ -1,20 +1,12 @@
 import Unit, { UnitClass } from '../../../Unit';
 import {
-	RifleCompanyHQ,
-	AntiTankPlatoon,
-	RiflePlatoon,
-} from './RifleCompanyUnits';
+	ServiceCompanyHQ,
+} from './ServiceCompanyUnits';
 
 export default class ServiceCompany {
 	constructor() {
 		return new Unit(null, 'Service', UnitClass.Company, {
-			subUnits: [
-				new RifleCompanyHQ(),
-				new AntiTankPlatoon(),
-				new RiflePlatoon(1),
-				new RiflePlatoon(2),
-				new RiflePlatoon(3),
-			],
+			subUnits: [ new ServiceCompanyHQ() ],
 		}, {
 			date: new Date(1943, 9, 15),
 			name: 'T/O&E 7-29',

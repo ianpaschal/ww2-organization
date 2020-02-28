@@ -31,7 +31,7 @@ export enum UnitClass {
 	CompanyHQ = 'Company HQ', // Same level as 'Platoon'
 	Platoon = 'Platoon',
 	PlatoonHQ = 'Platoon HQ', // Same level as 'Squad' or 'Section'
-	Section = 'Section', // Same level as 'Squad'
+	Section = 'Section', // Same level as 'Squad' or 'Platoon'
 	Squad = 'Squad', // Same level as 'Section'
 }
 
@@ -92,6 +92,10 @@ export default class Unit {
 
 	get subUnits(): Unit[] {
 		return this.contains.subUnits || [];
+	}
+
+	get vehicles(): any[] {
+		return this.contains.vehicles || [];
 	}
 
 	get personnel(): Personnel[] {

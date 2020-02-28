@@ -26,9 +26,31 @@
 		width: 24px;
 		height: 48px;
 		background-image: url('../../assets/person.png');
-		background-size: contain;
+	}
+
+	.graphic {
 		float: left;
+		background-size: contain;
+		background-position: center bottom;
+		background-repeat: no-repeat;
 		margin: 8px 4px;
 		display: block;
+		height: 64px;
+	}
+
+	.JeepGraphic {
+		width: 81px;
+		// height: 39px;
+		background-image: url('../../assets/jeep.png');
+	}
+	.CCKWGraphic {
+		width: 165px;
+		// height: 58px;
+		background-image: url('../../assets/cckw.png');
+	}
+	.HalfTrackGraphic {
+		width: 148px;
+		// height: 65px;
+		background-image: url('../../assets/halftrack.png');
 	}
 }

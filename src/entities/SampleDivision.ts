@@ -9,9 +9,14 @@ export default new Unit(2, 'Armored', UnitClass.Division, {
 		// Combat Command B
 		new Unit(41, 'Armored Infantry', UnitClass.Regiment, {
 			subUnits: [
+				// Regiment HQ & HQ Company
 				new ArmoredInfantryBattalion(1),
 				new ArmoredInfantryBattalion(2),
 				new ArmoredInfantryBattalion(3),
+				// Cannon Company
+				// Anti Tank Company
+				// Service Company
+				// Medical Detatchment
 			],
 		}, {
 			date: new Date(1940, 7, 15),
