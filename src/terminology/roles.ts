@@ -4,7 +4,10 @@ export const companyCommander: Role = {
 	official: 'Company Commander',
 };
 export const lieutenantExecutiveMotor: Role = {
-	official: 'Lieutenant, Executive and Motor',
+	official: 'Lieutenant, Executive & Motor',
+};
+export const lieutenantMotorTransport: Role = {
+	official: 'Lieutenant, Motor & Transport',
 };
 export const platoonCommander: Role = {
 	official: 'Platoon Commander',
@@ -96,4 +99,11 @@ export const riflemanSniper: Role = {
 };
 export const basic: Role = {
 	official: 'Basic',
+};
+export const s4Assistant: Role = {
+	official: 'S-4, Assistant',
+};
+export const operatorRadio: Role = {
+	official: 'Operator, Radio',
+	display: 'Radio Operator',
 };

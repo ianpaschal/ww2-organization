@@ -1,10 +1,10 @@
-import { equipment, ranks, vehicles, roles } from '../../../../../terminology';
 import Unit, { UnitClass } from '../../../../../Unit';
+import { equipment, vehicles, ranks, roles } from '../../../../../terminology';
 import multiply from '../../../../../utils/multiply';
 
 export default class AdminMessSupplySection {
 	constructor() {
-		return new Unit(null, 'Administrative, Mess & Supply', UnitClass.Section, {
+		return new Unit(null, 'Administration, Mess & Supply', UnitClass.Section, {
 			personnel: [
 				{
 					role: [ roles.firstSergeant ],
@@ -34,21 +34,6 @@ export default class AdminMessSupplySection {
 				{
 					role: [ roles.cook ],
 					equipment: [ equipment.carbine30calM1 ],
-					rank: [ ranks.technicianGrade4 ],
-				},
-				{
-					role: [ roles.cook ],
-					equipment: [ equipment.carbine30calM1 ],
-					rank: [ ranks.technicianGrade5 ],
-				},
-				{
-					role: [ roles.cook ],
-					equipment: [ equipment.carbine30calM1 ],
-					rank: [ ranks.technicianGrade5 ],
-				},
-				{
-					role: [ roles.cook ],
-					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.technicianGrade5 ],
 				},
 				{
@@ -62,52 +47,31 @@ export default class AdminMessSupplySection {
 				{
 					role: [ roles.driverTruckLight ],
 					equipment: [ equipment.smg45calM3 ],
-					rank: [ ranks.technicianGrade5 ],
-				},
-				{
-					role: [ roles.driverTruckLight ],
-					equipment: [ equipment.smg45calM3 ],
 					rank: [
+						ranks.technicianGrade5,
 						ranks.privateFirstClass,
-						ranks.privateBasic,
+						ranks.privateFirstClass,
 					],
 				},
-				{
-					role: [ roles.messenger ],
-					equipment: [ equipment.carbine30calM1 ],
-					rank: [
-						ranks.privateFirstClass,
-						ranks.privateBasic,
-					],
-				},
-			].concat(multiply(22, {
+			].concat(multiply(4, {
 				role: [ roles.basic ],
-				equipment: [ equipment.rifle30calM1 ],
-				rank: [
+				equipment:[],
+				rank:[
 					ranks.privateFirstClass,
 					ranks.privateBasic,
 				],
-			},)),
-			equipment: [
-				equipment.grenadeLauncherM8,
-				equipment.grenadeLauncherM8,
-				equipment.rocketLauncherM9,
-			],
+			})),
+			equipment: [],
 			vehicles: [
 				{
-					type: vehicles.truck21_2ton6x6Kitchen,
-					armament: [],
-					equipment: [ equipment.trailer1ton2WheelCargo ],
-				},
-				{
-					type: vehicles.truck21_2ton6x6Kitchen,
-					armament: [],
+					type: vehicles.truck21_2ton6x6Kitchen, // TODO: Should be specified as kitchen version
+					armament: [ equipment.mg30calM1919A4 ],
 					equipment: [ equipment.trailer1ton2WheelCargo ],
 				},
 			],
 		}, {
 			date: new Date(1943, 9, 15),
-			name: 'T/O&E 7-27',
+			name: 'T/O&E 7-29',
 		});
 	}
 }
