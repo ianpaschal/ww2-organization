@@ -1,4 +1,4 @@
-import { equipment, ranks, vehicles } from '../../../../../terminology';
+import { equipment, ranks, vehicles, roles } from '../../../../../terminology';
 import Unit, { UnitClass } from '../../../../../Unit';
 
 export default class HQSquad {
@@ -6,7 +6,7 @@ export default class HQSquad {
 		return new Unit(null, 'HQ', UnitClass.Squad, {
 			personnel: [
 				{
-					role: [ 'platoon_commander' ],
+					role: [ roles.platoonCommander ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.firstLieutenant,
@@ -14,17 +14,17 @@ export default class HQSquad {
 					],
 				},
 				{
-					role: [ 'platoon_technical_sergeant' ],
+					role: [ roles.technicalSergeantPlatoon ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [ ranks.technicalSergeant ],
 				},
 				{
-					role: [ 'squad_leader' ],
+					role: [ roles.squadLeader ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.staffSergeant ],
 				},
 				{
-					role: [ 'sniper' ],
+					role: [ roles.riflemanSniper ],
 					equipment: [ equipment.rifle30calM1903A4 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -32,7 +32,7 @@ export default class HQSquad {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -40,7 +40,7 @@ export default class HQSquad {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -48,7 +48,7 @@ export default class HQSquad {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -56,7 +56,7 @@ export default class HQSquad {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -64,7 +64,7 @@ export default class HQSquad {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -72,7 +72,7 @@ export default class HQSquad {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -80,7 +80,7 @@ export default class HQSquad {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -88,7 +88,7 @@ export default class HQSquad {
 					],
 				},
 				{
-					role: [ 'half_track_driver' ],
+					role: [ roles.driverHalfTrack ],
 					equipment: [ equipment.smg45calM3 ],
 					rank: [ ranks.technicianGrade5 ],
 				},

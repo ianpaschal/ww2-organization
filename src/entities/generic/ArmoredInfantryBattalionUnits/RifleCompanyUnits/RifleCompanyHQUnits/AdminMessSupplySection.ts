@@ -1,4 +1,4 @@
-import { equipment, ranks, vehicles } from '../../../../../terminology';
+import { equipment, ranks, vehicles, roles } from '../../../../../terminology';
 import Unit, { UnitClass } from '../../../../../Unit';
 import multiply from '../../../../../utils/multiply';
 
@@ -7,52 +7,52 @@ export default class AdminMessSupplySection {
 		return new Unit(null, 'Administrative, Mess & Supply', UnitClass.Section, {
 			personnel: [
 				{
-					role: [ 'first_sergeant' ],
+					role: [ roles.firstSergeant ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.firstSergeant ],
 				},
 				{
-					role: [ 'mess_officer' ],
+					role: [ roles.staffSergeantMess ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.staffSergeant ],
 				},
 				{
-					role: [ 'supply_officer' ],
+					role: [ roles.staffSergeantSupply ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.staffSergeant ],
 				},
 				{
-					role: [ 'company_clerk' ],
+					role: [ roles.clerkCompany ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.corporal ],
 				},
 				{
-					role: [ 'cook' ],
+					role: [ roles.cook ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.technicianGrade4 ],
 				},
 				{
-					role: [ 'cook' ],
+					role: [ roles.cook ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.technicianGrade4 ],
 				},
 				{
-					role: [ 'cook' ],
+					role: [ roles.cook ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.technicianGrade5 ],
 				},
 				{
-					role: [ 'cook' ],
+					role: [ roles.cook ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.technicianGrade5 ],
 				},
 				{
-					role: [ 'cook' ],
+					role: [ roles.cook ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.technicianGrade5 ],
 				},
 				{
-					role: [ 'cooks_helper' ],
+					role: [ roles.cooksHelper ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -60,12 +60,12 @@ export default class AdminMessSupplySection {
 					],
 				},
 				{
-					role: [ 'jeep_driver' ],
+					role: [ roles.driverTruckLight ],
 					equipment: [ equipment.smg45calM3 ],
 					rank: [ ranks.technicianGrade5 ],
 				},
 				{
-					role: [ 'jeep_driver' ],
+					role: [ roles.driverTruckLight ],
 					equipment: [ equipment.smg45calM3 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -73,7 +73,7 @@ export default class AdminMessSupplySection {
 					],
 				},
 				{
-					role: [ 'messenger' ],
+					role: [ roles.messenger ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -81,7 +81,7 @@ export default class AdminMessSupplySection {
 					],
 				},
 			].concat(multiply(22, {
-				role: [ 'basic' ],
+				role: [ roles.basic ],
 				equipment: [ equipment.rifle30calM1 ],
 				rank: [
 					ranks.privateFirstClass,

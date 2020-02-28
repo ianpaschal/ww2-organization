@@ -9,17 +9,17 @@ export default class ArmoredInfantryBattalion {
 			1: [
 				'A',
 				'B',
-				'C', 
+				'C',
 			],
 			2: [
 				'D',
 				'E',
-				'F', 
+				'F',
 			],
 			3: [
 				'G',
 				'H',
-				'I', 
+				'I',
 			],
 		};
 		return new Unit(id, 'Armored Infantry', UnitClass.Battalion, {

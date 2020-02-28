@@ -1,22 +1,22 @@
 import Unit, { UnitClass } from '../../../../../Unit';
-import { equipment, vehicles, ranks } from '../../../../../terminology';
+import { equipment, vehicles, ranks, roles } from '../../../../../terminology';
 
 export default class HQSection {
 	constructor() {
 		return new Unit(null, 'HQ', UnitClass.Section, {
 			personnel: [
 				{
-					role: [ 'company_commander' ],
+					role: [ roles.companyCommander ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.captain ],
 				},
 				{
-					role: [ 'communication_chief' ],
+					role: [ roles.communicationChief ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.sergeant ],
 				},
 				{
-					role: [ 'bugler' ],
+					role: [ roles.bugler ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -24,12 +24,12 @@ export default class HQSection {
 					],
 				},
 				{
-					role: [ 'half_track_driver' ],
+					role: [ roles.driverHalfTrack ],
 					equipment: [ equipment.smg45calM3 ],
 					rank: [ ranks.technicianGrade5 ],
 				},
 				{
-					role: [ 'machine_gunner' ],
+					role: [ roles.gunnerMachine ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -38,8 +38,8 @@ export default class HQSection {
 				},
 				{
 					role: [
-						'messenger',
-						'jeep_driver', 
+						roles.messenger,
+						roles.driverTruckLight,
 					],
 					equipment: [ equipment.smg45calM3 ],
 					rank: [
@@ -48,7 +48,7 @@ export default class HQSection {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -56,7 +56,7 @@ export default class HQSection {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -64,7 +64,7 @@ export default class HQSection {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,

@@ -1,4 +1,4 @@
-import { equipment, ranks, vehicles } from '../../../../../terminology';
+import { equipment, ranks, vehicles, roles } from '../../../../../terminology';
 import Unit, { UnitClass } from '../../../../../Unit';
 
 export default class MortarSquad {
@@ -6,12 +6,12 @@ export default class MortarSquad {
 		return new Unit(null, 'Mortar', UnitClass.Squad, {
 			personnel: [
 				{
-					role: [ 'squad_leader' ],
+					role: [ roles.squadLeader ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.staffSergeant ],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -19,7 +19,7 @@ export default class MortarSquad {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -27,7 +27,7 @@ export default class MortarSquad {
 					],
 				},
 				{
-					role: [ 'mortar_gunner' ],
+					role: [ roles.gunnerMortar ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -35,7 +35,7 @@ export default class MortarSquad {
 					],
 				},
 				{
-					role: [ 'ammunition_handler' ],
+					role: [ roles.gunnerMortar ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -43,7 +43,7 @@ export default class MortarSquad {
 					],
 				},
 				{
-					role: [ 'mortar_gunner' ],
+					role: [ roles.handlerAmmunition ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -51,7 +51,7 @@ export default class MortarSquad {
 					],
 				},
 				{
-					role: [ 'ammunition_handler' ],
+					role: [ roles.handlerAmmunition ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -59,7 +59,7 @@ export default class MortarSquad {
 					],
 				},
 				{
-					role: [ 'half_track_driver' ],
+					role: [ roles.driverHalfTrack ],
 					equipment: [ equipment.smg45calM3 ],
 					rank: [ ranks.technicianGrade5 ],
 				},

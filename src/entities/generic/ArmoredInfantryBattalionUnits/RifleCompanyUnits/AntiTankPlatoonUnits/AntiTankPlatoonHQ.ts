@@ -1,4 +1,4 @@
-import { equipment, ranks, vehicles } from '../../../../../terminology';
+import { equipment, ranks, vehicles, roles } from '../../../../../terminology';
 import Unit, { UnitClass } from '../../../../../Unit';
 
 export default class AntiTankPlatoonHQ {
@@ -6,7 +6,7 @@ export default class AntiTankPlatoonHQ {
 		return new Unit(null, 'Anti-Tank', UnitClass.PlatoonHQ, {
 			personnel: [
 				{
-					role: [ 'platoon_commander' ],
+					role: [ roles.platoonCommander ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.firstLieutenant,
@@ -14,12 +14,12 @@ export default class AntiTankPlatoonHQ {
 					],
 				},
 				{
-					role: [ 'platoon_technical_sergeant' ],
+					role: [ roles.technicalSergeantPlatoon ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.technicalSergeant ],
 				},
 				{
-					role: [ 'messenger' ],
+					role: [ roles.messenger ],
 					equipment: [ equipment.smg45calM3 ],
 					rank: [
 						ranks.privateFirstClass,

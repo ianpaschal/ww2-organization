@@ -1,4 +1,4 @@
-import { equipment, ranks, vehicles } from '../../../../../terminology';
+import { equipment, ranks, vehicles, roles } from '../../../../../terminology';
 import Unit, { UnitClass } from '../../../../../Unit';
 
 export default class LMGSquad {
@@ -6,17 +6,17 @@ export default class LMGSquad {
 		return new Unit(null, 'LMG', UnitClass.Squad, {
 			personnel: [
 				{
-					role: [ 'squad_leader' ],
+					role: [ roles.squadLeader ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.staffSergeant ],
 				},
 				{
-					role: [ 'assistant_squad_leader' ],
+					role: [ roles.squadLeaderAssistant ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.sergeant ],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -24,7 +24,7 @@ export default class LMGSquad {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -32,7 +32,7 @@ export default class LMGSquad {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -40,7 +40,7 @@ export default class LMGSquad {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -48,7 +48,7 @@ export default class LMGSquad {
 					],
 				},
 				{
-					role: [ 'rifleman' ],
+					role: [ roles.rifleman ],
 					equipment: [ equipment.rifle30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -56,7 +56,7 @@ export default class LMGSquad {
 					],
 				},
 				{
-					role: [ 'machine_gunner' ],
+					role: [ roles.gunnerMachine ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -64,7 +64,7 @@ export default class LMGSquad {
 					],
 				},
 				{
-					role: [ 'ammunition_handler' ],
+					role: [ roles.gunnerMachine ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -72,7 +72,7 @@ export default class LMGSquad {
 					],
 				},
 				{
-					role: [ 'machine_gunner' ],
+					role: [ roles.handlerAmmunition ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -80,7 +80,7 @@ export default class LMGSquad {
 					],
 				},
 				{
-					role: [ 'ammunition_handler' ],
+					role: [ roles.handlerAmmunition ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.privateFirstClass,
@@ -88,7 +88,7 @@ export default class LMGSquad {
 					],
 				},
 				{
-					role: [ 'half_track_driver' ],
+					role: [ roles.driverHalfTrack ],
 					equipment: [ equipment.smg45calM3 ],
 					rank: [ ranks.technicianGrade5 ],
 				},

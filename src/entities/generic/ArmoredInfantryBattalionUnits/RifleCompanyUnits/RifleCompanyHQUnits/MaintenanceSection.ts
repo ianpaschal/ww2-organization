@@ -1,12 +1,12 @@
 import Unit, { UnitClass } from '../../../../../Unit';
-import { equipment, vehicles, ranks } from '../../../../../terminology';
+import { equipment, vehicles, ranks, roles } from '../../../../../terminology';
 
 export default class MaintenanceSection {
 	constructor() {
 		return new Unit(null, 'Maintenance', UnitClass.Section, {
 			personnel: [
 				{
-					role: [ 'executive_motor_officier' ],
+					role: [ roles.lieutenantExecutiveMotor ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [
 						ranks.firstLieutenant,
@@ -14,37 +14,37 @@ export default class MaintenanceSection {
 					],
 				},
 				{
-					role: [ 'motor_officier' ],
+					role: [ roles.staffSergeantMotor ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.staffSergeant ],
 				},
 				{
-					role: [ 'armorer' ],
+					role: [ roles.armorer ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.technicianGrade5 ],
 				},
 				{
-					role: [ 'armorer' ],
+					role: [ roles.armorer ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.technicianGrade5 ],
 				},
 				{
-					role: [ 'automobile_mechanic' ],
+					role: [ roles.mechanicAutomobile ],
 					equipment: [ equipment.carbine30calM1 ],
 					rank: [ ranks.technicianGrade4 ],
 				},
 				{
 					role: [
-						'automobile_mechanic',
-						'half_track_driver', 
+						roles.mechanicAutomobile,
+						roles.driverHalfTrack,
 					],
 					equipment: [ equipment.smg45calM3 ],
 					rank: [ ranks.technicianGrade4 ],
 				},
 				{
 					role: [
-						'automobile_mechanic',
-						'jeep_driver', 
+						roles.mechanicAutomobile,
+						roles.driverTruckLight,
 					],
 					equipment: [ equipment.smg45calM3 ],
 					rank: [ ranks.technicianGrade5 ],

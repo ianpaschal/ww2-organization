@@ -91,6 +91,9 @@ export const messenger: Role = {
 export const rifleman: Role = {
 	official: 'Rifleman',
 };
+export const riflemanSniper: Role = {
+	official: 'Rifleman, Sniper',
+};
 export const basic: Role = {
 	official: 'Basic',
 };
