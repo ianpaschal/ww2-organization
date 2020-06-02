@@ -21,7 +21,7 @@
   },
   "homepage": "http://ianpaschal.github.io/ww2-organization",
   "dependencies": {
-    "react": "^16.8.6",
+    "react": "^16.13.1",
     "react-dom": "^16.8.6",
     "react-input-slider": "^5.1.4",
     "react-router-dom": "^5.1.2",
