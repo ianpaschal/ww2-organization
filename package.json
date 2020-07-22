@@ -23,7 +23,7 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.13.0",
-    "react-input-slider": "^5.1.4",
+    "react-input-slider": "^6.0.0",
     "react-router-dom": "^5.1.2",
     "semantic-ui-react": "^0.88.2",
     "tslib": "^1.11.0"
